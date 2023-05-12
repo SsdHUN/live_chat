@@ -16,7 +16,6 @@ body{
     .title{
         color:rgb(150, 150, 150);
         font-size: 30px;
-        
     }
 
 }
@@ -28,7 +27,6 @@ gap: 10px;
 display: flex;
 flex-direction: column;
 align-items: center;
-    
     form{
         display: flex;
         flex-direction: column;
@@ -40,8 +38,13 @@ align-items: center;
         border-bottom: 1px solid;
         border-radius: 10px;
         &::placeholder{
-            color: black;
+            color: rgb(70, 70, 70);
         } 
+        &#file{
+            display: none;
+        }
+        
+
    }
    button{
     background-color: rgb(150, 150, 150);
@@ -50,9 +53,10 @@ align-items: center;
     margin-top: 10px;
     border-radius: 7px;
     height: 35px;
-    
     }
-
-   
+    }
+    #add_img{
+        color:rgb(150, 150, 150);
+        font-size: 14px;
     }
 }
